@@ -229,7 +229,7 @@ class PRODUCTS
     public function testImg($prodID)
     {
         try {
-            $conn = new PDO("sqlsrv:server = tcp:357ltddbserver.database.windows.net,1433; Database = 357LtdDB", "JJthescot", "***REMOVED***");
+            $conn = new PDO("sqlsrv:server = tcp:357ltddbserver.database.windows.net,1433; Database = 357LtdDB", "JJthescot", "JJd45c0t");
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
         catch (PDOException $e) {

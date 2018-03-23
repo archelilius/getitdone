@@ -21,7 +21,7 @@ class myPDO extends PDO
 
 $DB_host = "tcp:357ltddbserver.database.windows.net,1433";
 $DB_user = "JJthescot";
-$DB_pass = "***REMOVED***";
+$DB_pass = "JJd45c0t";
 $DB_name = "357LtdDB";
 
 try

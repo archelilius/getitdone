@@ -1,7 +1,7 @@
     <?php
         // PHP Data Objects(PDO) Sample Code:
     try {
-        $conn = new PDO("sqlsrv:server = tcp:357ltddbserver.database.windows.net,1433; Database = 357LtdDB", "JJthescot", "***REMOVED***");
+        $conn = new PDO("sqlsrv:server = tcp:357ltddbserver.database.windows.net,1433; Database = 357LtdDB", "JJthescot", "JJd45c0t");
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
     catch (PDOException $e) {
@@ -52,7 +52,7 @@
  echo '</div>';
 
  try {
-    $conn = new PDO("sqlsrv:server = tcp:357ltddbserver.database.windows.net,1433; Database = 357LtdDB", "JJthescot", "***REMOVED***");
+    $conn = new PDO("sqlsrv:server = tcp:357ltddbserver.database.windows.net,1433; Database = 357LtdDB", "JJthescot", "JJd45c0t");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
@@ -139,7 +139,7 @@ echo "</tr>";
         <?php
 // PHP Data Objects(PDO) Sample Code:
 try {
-    $conn = new PDO("sqlsrv:server = tcp:357ltddbserver.database.windows.net,1433; Database = 357LtdDB", "JJthescot", "***REMOVED***");
+    $conn = new PDO("sqlsrv:server = tcp:357ltddbserver.database.windows.net,1433; Database = 357LtdDB", "JJthescot", "JJd45c0t");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
